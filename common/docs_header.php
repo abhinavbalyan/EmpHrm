@@ -2105,9 +2105,9 @@
                                         <div class="site-main-header-inner-wrap site-header-row site-header-row-has-sides site-header-row-no-center">
                                             <div class="site-header-main-section-left site-header-section site-header-section-left">
                                                 <div class="site-header-item site-header-focus-item" data-section="title_tagline">
-                                                    <div class="site-branding branding-layout-standard"><a class="brand" href="https://icehrm.com/explore/" rel="home" aria-label="IceHrm">
+                                                    <div class="site-branding branding-layout-standard"><a class="brand" href="<?php echo Constant::$base_url ?>docs/" rel="home" aria-label="IceHrm">
                                                             <div class="site-title-wrap">
-                                                                <p class="site-title">IceHrm</p>
+                                                                <p class="site-title">EmpHrm</p>
                                                             </div>
                                                         </a></div>
                                                 </div>
@@ -2117,16 +2117,16 @@
                                                     <nav id="site-navigation" class="main-navigation header-navigation nav--toggle-sub header-navigation-style-standard header-navigation-dropdown-animation-none" role="navigation" aria-label="Primary Navigation">
                                                         <div class="primary-menu-container header-menu-container">
                                                             <ul id="primary-menu" class="menu">
-                                                                <li id="menu-item-975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-975"><a href="https://icehrm.com/explore/">Home</a></li>
-                                                                <li id="menu-item-976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-976"><a href="https://icehrm.com/explore/docs">User Guide</a></li>
-                                                                <li id="menu-item-1704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704"><a href="https://icehrm.com/explore/category/blog/">Blog</a></li>
-                                                                <li id="menu-item-1705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1705"><a href="https://icehrm.com/explore/category/icehrm-releases/"><span class="nav-drop-title-wrap">IceHrm Releases<span class="dropdown-nav-toggle" aria-label="Expand child menu"><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                                <li id="menu-item-975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-975"><a href="<?php echo Constant::$base_url ?>explore/">Home</a></li>
+                                                                <li id="menu-item-976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-976"><a href="<?php echo Constant::$base_url ?>explore/docs">User Guide</a></li>
+                                                                <li id="menu-item-1704" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704"><a href="<?php echo Constant::$base_url ?>explore/category/blog/">Blog</a></li>
+                                                                <li id="menu-item-1705" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1705"><a href="<?php echo Constant::$base_url ?>explore/category/icehrm-releases/"><span class="nav-drop-title-wrap">EmpHrm Releases<span class="dropdown-nav-toggle" aria-label="Expand child menu"><span class="kadence-svg-iconset svg-baseline"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                                                                         <title>Expand</title>
                                                                                         <path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
                                                                                     </svg></span></span></span></a>
                                                                     <ul class="sub-menu">
-                                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a href="https://icehrm.com/explore/roadmap/">Roadmap</a></li>
-                                                                        <li id="menu-item-1948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1948"><a href="https://icehrm.com/explore/release-notes/">Release Notes</a></li>
+                                                                        <li id="menu-item-2028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a href="<?php echo Constant::$base_url ?>explore/roadmap/">Roadmap</a></li>
+                                                                        <li id="menu-item-1948" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1948"><a href="<?php echo Constant::$base_url ?>explore/release-notes/">Release Notes</a></li>
                                                                     </ul>
                                                                 </li>
                                                             </ul>

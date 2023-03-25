@@ -9,7 +9,7 @@
                                 <div class="footer-widget-area-inner site-info-inner">
                                     <div class="footer-html inner-link-style-normal">
                                         <div class="footer-html-inner">
-                                            <p>&copy; 2023 IceHrm</p>
+                                            <p>&copy; 2023 EmpHrm</p>
                                         </div>
                                     </div>
                                 </div>
@@ -43,17 +43,17 @@
                 <nav id="mobile-site-navigation" class="mobile-navigation drawer-navigation drawer-navigation-parent-toggle-false" role="navigation" aria-label="Primary Mobile Navigation">
                     <div class="mobile-menu-container drawer-menu-container">
                         <ul id="mobile-menu" class="menu has-collapse-sub-nav">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-975"><a href="https://icehrm.com/explore/">Home</a></li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-976"><a href="https://icehrm.com/explore/docs">User Guide</a></li>
-                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704"><a href="https://icehrm.com/explore/category/blog/">Blog</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-975"><a href="<?php echo Constant::$base_url ?>explore/">Home</a></li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-976"><a href="<?php echo Constant::$base_url ?>explore/docs">User Guide</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1704"><a href="<?php echo Constant::$base_url ?>explore/category/blog/">Blog</a></li>
                             <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-1705">
-                                <div class="drawer-nav-drop-wrap"><a href="https://icehrm.com/explore/category/icehrm-releases/">IceHrm Releases</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#mobile-menu .menu-item-1705 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <div class="drawer-nav-drop-wrap"><a href="<?php echo Constant::$base_url ?>explore/category/icehrm-releases/">IceHrm Releases</a><button class="drawer-sub-toggle" data-toggle-duration="10" data-toggle-target="#mobile-menu .menu-item-1705 &gt; .sub-menu" aria-expanded="false"><span class="screen-reader-text">Expand child menu</span><span class="kadence-svg-iconset"><svg aria-hidden="true" class="kadence-svg-icon kadence-arrow-down-svg" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                                                 <title>Expand</title>
                                                 <path d="M5.293 9.707l6 6c0.391 0.391 1.024 0.391 1.414 0l6-6c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path>
                                             </svg></span></button></div>
                                 <ul class="sub-menu">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a href="https://icehrm.com/explore/roadmap/">Roadmap</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1948"><a href="https://icehrm.com/explore/release-notes/">Release Notes</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2028"><a href="<?php echo Constant::$base_url ?>explore/roadmap/">Roadmap</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1948"><a href="<?php echo Constant::$base_url ?>explore/release-notes/">Release Notes</a></li>
                                 </ul>
                             </li>
                         </ul>
